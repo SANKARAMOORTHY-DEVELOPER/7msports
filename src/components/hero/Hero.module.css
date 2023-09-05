@@ -1,0 +1,65 @@
+.hero {
+    background-image: url('../../assets/tirfm.jpg');
+    background-size: cover;
+    background-position: 68%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.hero__content--container {
+    display: grid;
+    height: 90vh;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+    height: 100%;
+}
+
+.hero__content h1 {
+    max-width: 300px;
+}
+
+.hero__content p {
+    width: min(85%, 450px);
+}
+
+
+.hero__content a {
+    width: fit-content;
+}
+
+/* Media Queries */
+
+@media (min-width:500px) {
+    .hero__content--container {
+        grid-template-columns: repeat(9, 1fr);
+    }
+
+    .hero__content {
+        grid-column: 1/6;
+    }
+
+    .hero__content h1 {
+        max-width: none;
+    }
+
+}
+
+@media (min-width:768px) {
+    /* .hero {
+        height: 100vh;
+    } */
+
+    .hero__content--container {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .hero__content {
+        grid-column: 1/4;
+    }
+}

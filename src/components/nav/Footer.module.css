@@ -1,0 +1,142 @@
+.footer__container {
+    border-top: 1px solid rgba(72, 69, 84, 0.51);
+    padding-top: 2rem;
+    height: max-content;
+    scroll-snap-align: end;
+}
+
+.footer article {
+    margin: 1rem 0;
+}
+
+.footer__links {
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.footer__links li,
+.footer__contact--info li {
+    margin: .675rem 0;
+    color: var(--secondary);
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: var(--secondary);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.footer__links a:hover {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.footer__contact {
+    padding-top: 1rem;
+}
+
+.footer__contact--info {
+    margin-bottom: 3rem;
+}
+
+.footer__contact--info h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 1.5rem;
+}
+
+.footer__contact--info li {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.footer__contact--info li :first-child {
+    font-weight: 700;
+}
+
+.footer__icons {
+    max-width: 200px;
+}
+
+.footer__icons--icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.footer__logo {
+    margin-top: 2.5rem;
+    padding: 1rem 0;
+    background-color: var(--secondary);
+    text-align: center;
+    list-style: none;
+}
+
+.footer__logo li {
+    padding-top: .5rem;
+}
+
+.footer__logo a {
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.footer__logo a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (min-width:768px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .footer article {
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .footer__contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .footer__contact--info {
+        margin-bottom: 0;
+    }
+
+    .footer__contact--info:last-child {
+        margin-left: auto;
+    }
+
+    .footer__contact--info h3 {
+        margin: 0;
+    }
+
+    .footer__icons {
+        margin-top: 1rem;
+    }
+}
+
+
+@media (min-width:1024px) {
+    .footer__container {
+        padding-top: 3rem;
+    }
+
+    .footer__links {
+        padding: 0;
+    }
+}
