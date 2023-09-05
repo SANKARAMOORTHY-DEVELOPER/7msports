@@ -1,0 +1,42 @@
+.locations {
+    padding: 3rem 0;
+    scroll-snap-align: start;
+}
+
+.locations__content {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.locations__content h1 {
+    margin-bottom: .5rem;
+}
+
+.locations__content p {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.locations__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 500px) {
+    .locations__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .locations__list {
+        max-width: 1100px;
+        margin: 0 auto;
+        gap: 5rem;
+    }
+}

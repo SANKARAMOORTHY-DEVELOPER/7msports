@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Didact+Gothic&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+
+:root {
+  --primary: #CFC3FF;
+  --primary-dark: #676286;
+  --secondary: #484554;
+  --secondary-dark: #0D0D0D;
+  --white: #fff;
+}
+
+.text {
+  color: var(--white);
+  line-height: 25px;
+}
+
+.text--dark {
+  color: var(--secondary-dark);
+  line-height: 25px;
+}
+
+.app {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}

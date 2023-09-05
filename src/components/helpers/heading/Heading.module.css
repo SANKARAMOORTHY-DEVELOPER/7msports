@@ -1,0 +1,34 @@
+.heading,
+.heading span {
+    text-transform: uppercase;
+    line-height: 98%;
+    font-family: "Bebas Neue", cursive;
+    color: var(--white);
+    letter-spacing: .1rem;
+}
+
+.heading span {
+    color: var(--primary);
+}
+
+.large {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+}
+
+.medium {
+    font-size: clamp(2.3rem, 5vw, 3.5rem);
+}
+
+.medium--dark {
+    font-size: clamp(2.3rem, 5vw, 3.5rem);
+    color: var(--secondary);
+}
+
+.small {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.small--dark {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color: var(--secondary);
+}

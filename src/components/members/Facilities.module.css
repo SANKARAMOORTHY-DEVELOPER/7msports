@@ -1,0 +1,33 @@
+.facility {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.facility video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.facility__overlay {
+    background-color: rgba(0, 0, 0, 0.58);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.facility__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: min(100%, 450px);
+    margin: auto;
+    gap: .5rem;
+}
