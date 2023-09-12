@@ -16,7 +16,7 @@ const AboutIntro = () => {
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-            Natura was founded in 2014 by two women who were passionate about
+            Natura was founded in 2023 by two women who were passionate about
             health and fitness. They wanted to create a safe space for women to
             workout, free from the judgment and harassment that they often
             experienced in traditional gyms.
