@@ -8,7 +8,7 @@ import Button from "../helpers/button/Button";
 const Hero = () => {
   const heading = (
     <>
-      THE EVOLUTION OF <span> fitness</span> for <span>her</span>
+      THE EVOLUTION OF <span> turf of</span> Endless <span>potential</span>
     </>
   );
 
@@ -21,13 +21,12 @@ const Hero = () => {
           <article className={styled.hero__content}>
             <Heading className="large" heading={heading} />
             <p className="text">
-              We believe women should exercise in safe and welcoming space. Our
-              goal is to help women feel confident and comfortable in their own
-              skin, and to encourage them to lead healthy, active lifestyles.
+             Experience the perfect play surface for all sports 
+             at our multi-sport turf facility. Join us as a franchisee to share the excitement
             </p>
 
             <Button className="primary" link="#membership">
-              Become a Member
+              Become a Member/Franchisee
             </Button>
           </article>
         </div>
