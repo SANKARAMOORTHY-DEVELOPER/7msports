@@ -16,16 +16,14 @@ const AboutIntro = () => {
         <article className={styled.intro__content}>
           <Heading className="medium" heading={heading} />
           <p className="text">
-            Natura was founded in 2023 by two women who were passionate about
-            health and fitness. They wanted to create a safe space for women to
-            workout, free from the judgment and harassment that they often
-            experienced in traditional gyms.
+          Welcome to Chennai's premier 24/7 7M multi-sport turf facility in Kolathur. 
+          Elevate your game on our state-of-the-art pitches. Founded in 2023.
           </p>
 
           <p className="text">
-            The gym has helped countless women improve their health and
-            wellbeing, and it continues to be a place where women can come
-            together to support and motivate each other.
+          Welcome to our Unisex Multi-Sport Turf - Your 24/7 Playground! 
+          Enjoy sports, energy supplements, and unbeatable bulk booking deals.
+          Join the fun!"
           </p>
           <Button link="#membership" className="primary">
             Join 7M Sports
